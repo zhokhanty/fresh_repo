@@ -29,6 +29,7 @@ def main():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.quit()
+                
         screen.fill(0)
         screen.blit(clock_image, (0, 0))
 
